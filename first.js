@@ -23,4 +23,4 @@ let x=BigInt("12345");
 // };
 // student["age"]=25;
 // console.log(student.age);
-//console.log(student);
+console.log("student");
