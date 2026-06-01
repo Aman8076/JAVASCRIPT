@@ -11,12 +11,12 @@
 
 
 //-----------------method -------
-let arr1=["aman","shrama","anuj","siddhart","anamika","aradhya","mishra"];
+//let arr1=["aman","shrama","anuj","siddhart","anamika","aradhya","mishra"];
 // let arr2=["anamika","aradhya","mishra"];
 //let arr3=arr1.concat(arr2);
 //console.log(arr3);
 // arr1.unshift("anamika");
 // let arr3=arr1.slice(1,4);
 // console.log(arr3);
-arr1.splice(1,3,"sriyansh","rishu");
-console.log(arr1);
+// arr1.splice(1,3,"sriyansh","rishu");
+// console.log(arr1);

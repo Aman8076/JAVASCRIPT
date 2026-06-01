@@ -23,3 +23,12 @@
 
 // }
 // console.log(items);
+
+
+
+//-------------question 3------------
+let companies=["bloomberg","microsoft","uber","google","IBM","netflix"];
+companies.shift();
+companies.splice(1,1,"ola");
+companies.push("amazon");
+console.log(companies);
