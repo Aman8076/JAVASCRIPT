@@ -56,20 +56,20 @@
 
 
 //----------------ques 4 reduce method-------
-let n=prompt("enter a number");
-let arr=[];
-for(let i=0;i<n;i++){
-    arr[i]=i+1;
-}
-console.log(arr);
-let output=arr.reduce((res,cur)=>{
-    return res+cur;
-})
-console.log(output);
-let prooutput=arr.reduce((res,cur)=>{
-    return res*cur;
-})
-console.log(prooutput);
+// let n=prompt("enter a number");
+// let arr=[];
+// for(let i=0;i<n;i++){
+//     arr[i]=i+1;
+// }
+// console.log(arr);
+// let output=arr.reduce((res,cur)=>{
+//     return res+cur;
+// })
+// console.log(output);
+// let prooutput=arr.reduce((res,cur)=>{
+//     return res*cur;
+// })
+// console.log(prooutput);
 
 
 
