@@ -7,15 +7,21 @@
 //  document.body.style.background="green";
 
 
+
+//-----------------------#Id-------------------
 // let button=document.getElementById("myId");
 //  console.log(button);
 //  console.dir(button); 
 
 
+
+//---------------------".class"------------
 //  let headings=document.getElementsByClassName("heading-class");
 // console.dir(headings); 
 // console.log(headings)
 
+
+//-----------------------Tag-------------------S
 // let para=document.getElementsByTagName("p");
 // console.dir(para);
 
@@ -72,16 +78,18 @@
 
 
 //------------------------question 2----------------
-// let divs=document.querySelectorAll(".box");
+
+//=================method1===============
+// // let divs=document.querySelectorAll(".box");
 // console.dir(divs);
 // divs[0].innerText="new value 1";
 // divs[1].innerText="new value 2";
 // divs[2].innerText="new value 3";
 
 //==================method 2===========
-let divs=document.querySelectorAll(".box");
-let idx=1;
-for (k of divs){
-    k.innerText=`new unique value ${idx}`;
-    idx++;
-}
+// let divs=document.querySelectorAll(".box");
+// let idx=1;
+// for (k of divs){
+//     k.innerText=`new unique value ${idx}`;
+//     idx++;
+// }
