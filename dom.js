@@ -93,3 +93,56 @@
 //     k.innerText=`new unique value ${idx}`;
 //     idx++;
 // }
+
+
+
+
+
+
+
+//-------------**PART2**----------------------
+// let divs=document.querySelector("div");
+// console.log(divs);
+// let id=divs.getAttribute("id");
+// console.log(id);
+// console.log(divs.getAttribute("name"));
+
+
+// let para=document.querySelector("p");
+// console.log(para.setAttribute("class","aman"));
+
+
+// let divs=document.querySelector("div");
+// console.log(divs.style);
+// divs.style.backgroundColor="green";
+// divs.style.fontSize="26px";
+// divs.innerText="Hello!";
+
+
+
+//------------------insert----------------------------
+// let newBut=document.createElement("button");
+// newBut.innerText="clickme!";
+// console.dir(newBut);
+// let divs=document.querySelector("div");
+//divs.append(newBut);
+//divs.prepend(newBut);
+//divs.before(newBut);
+//divs.after(newBut);
+//divs.remove();
+
+
+// let p=document.querySelector("p");
+// p.after(newBut);
+
+
+
+
+//------------------------question 3-----------------------------
+let newButton=document.createElement("button");
+newButton.innerText="click me";
+console.log(newButton);
+newButton.style.backgroundColor="red";
+newButton.style.color="white";
+let b=document.querySelector("body");
+b.prepend(newButton);
