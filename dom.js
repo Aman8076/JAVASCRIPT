@@ -139,10 +139,10 @@
 
 
 //------------------------question 3-----------------------------
-let newButton=document.createElement("button");
-newButton.innerText="click me";
-console.log(newButton);
-newButton.style.backgroundColor="red";
-newButton.style.color="white";
-let b=document.querySelector("body");
-b.prepend(newButton);
+// let newButton=document.createElement("button");
+// newButton.innerText="click me";
+// console.log(newButton);
+// newButton.style.backgroundColor="red";
+// newButton.style.color="white";
+// let b=document.querySelector("body");
+// b.prepend(newButton);
